@@ -42,7 +42,9 @@ try
         Write-Host "Algorithm: " $algo
         Write-Host "File Hash: " $result.Hash
         Write-Host "Your Hash: " $hash.ToUpper()
-    } else {
+    } 
+    else 
+    {
         Write-Host "Result: Bad"
     }
 }
